@@ -8,7 +8,7 @@ jobs:
       - name: step-one
         uses: actions/checkout@v4
       - name: step-two
-        run: ls-la
+        run: ls -la
       - run: pwd
   job2:
      name: second job
